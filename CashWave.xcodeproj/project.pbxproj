@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE3124C82BD97BD1004BF9A7 /* CashWaveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3124C72BD97BD1004BF9A7 /* CashWaveApp.swift */; };
+		BE3124CA2BD97BD1004BF9A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3124C92BD97BD1004BF9A7 /* ContentView.swift */; };
+		BE3124CC2BD97BD3004BF9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3124CB2BD97BD3004BF9A7 /* Assets.xcassets */; };
+		BE3124CF2BD97BD3004BF9A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3124CE2BD97BD3004BF9A7 /* Preview Assets.xcassets */; };
+		BE3124D92BD97BD3004BF9A7 /* CashWaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3124D82BD97BD3004BF9A7 /* CashWaveTests.swift */; };
+		BE3124E32BD97BD3004BF9A7 /* CashWaveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3124E22BD97BD3004BF9A7 /* CashWaveUITests.swift */; };
+		BE3124E52BD97BD3004BF9A7 /* CashWaveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3124E42BD97BD3004BF9A7 /* CashWaveUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE3124D52BD97BD3004BF9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3124BC2BD97BD1004BF9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3124C32BD97BD1004BF9A7;
+			remoteInfo = CashWave;
+		};
+		BE3124DF2BD97BD3004BF9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE3124BC2BD97BD1004BF9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3124C32BD97BD1004BF9A7;
+			remoteInfo = CashWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE3124C42BD97BD1004BF9A7 /* CashWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3124C72BD97BD1004BF9A7 /* CashWaveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWaveApp.swift; sourceTree = "<group>"; };
+		BE3124C92BD97BD1004BF9A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE3124CB2BD97BD3004BF9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE3124CE2BD97BD3004BF9A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE3124D42BD97BD3004BF9A7 /* CashWaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashWaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3124D82BD97BD3004BF9A7 /* CashWaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWaveTests.swift; sourceTree = "<group>"; };
+		BE3124DE2BD97BD3004BF9A7 /* CashWaveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashWaveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3124E22BD97BD3004BF9A7 /* CashWaveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWaveUITests.swift; sourceTree = "<group>"; };
+		BE3124E42BD97BD3004BF9A7 /* CashWaveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashWaveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE3124C12BD97BD1004BF9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3124D12BD97BD3004BF9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3124DB2BD97BD3004BF9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE3124BB2BD97BD1004BF9A7 = {
+			isa = PBXGroup;
+			children = (
+				BE3124C62BD97BD1004BF9A7 /* CashWave */,
+				BE3124D72BD97BD3004BF9A7 /* CashWaveTests */,
+				BE3124E12BD97BD3004BF9A7 /* CashWaveUITests */,
+				BE3124C52BD97BD1004BF9A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE3124C52BD97BD1004BF9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE3124C42BD97BD1004BF9A7 /* CashWave.app */,
+				BE3124D42BD97BD3004BF9A7 /* CashWaveTests.xctest */,
+				BE3124DE2BD97BD3004BF9A7 /* CashWaveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE3124C62BD97BD1004BF9A7 /* CashWave */ = {
+			isa = PBXGroup;
+			children = (
+				BE3124C72BD97BD1004BF9A7 /* CashWaveApp.swift */,
+				BE3124C92BD97BD1004BF9A7 /* ContentView.swift */,
+				BE3124CB2BD97BD3004BF9A7 /* Assets.xcassets */,
+				BE3124CD2BD97BD3004BF9A7 /* Preview Content */,
+			);
+			path = CashWave;
+			sourceTree = "<group>";
+		};
+		BE3124CD2BD97BD3004BF9A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BE3124CE2BD97BD3004BF9A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE3124D72BD97BD3004BF9A7 /* CashWaveTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3124D82BD97BD3004BF9A7 /* CashWaveTests.swift */,
+			);
+			path = CashWaveTests;
+			sourceTree = "<group>";
+		};
+		BE3124E12BD97BD3004BF9A7 /* CashWaveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE3124E22BD97BD3004BF9A7 /* CashWaveUITests.swift */,
+				BE3124E42BD97BD3004BF9A7 /* CashWaveUITestsLaunchTests.swift */,
+			);
+			path = CashWaveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE3124C32BD97BD1004BF9A7 /* CashWave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3124E82BD97BD3004BF9A7 /* Build configuration list for PBXNativeTarget "CashWave" */;
+			buildPhases = (
+				BE3124C02BD97BD1004BF9A7 /* Sources */,
+				BE3124C12BD97BD1004BF9A7 /* Frameworks */,
+				BE3124C22BD97BD1004BF9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashWave;
+			productName = CashWave;
+			productReference = BE3124C42BD97BD1004BF9A7 /* CashWave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE3124D32BD97BD3004BF9A7 /* CashWaveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3124EB2BD97BD3004BF9A7 /* Build configuration list for PBXNativeTarget "CashWaveTests" */;
+			buildPhases = (
+				BE3124D02BD97BD3004BF9A7 /* Sources */,
+				BE3124D12BD97BD3004BF9A7 /* Frameworks */,
+				BE3124D22BD97BD3004BF9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3124D62BD97BD3004BF9A7 /* PBXTargetDependency */,
+			);
+			name = CashWaveTests;
+			productName = CashWaveTests;
+			productReference = BE3124D42BD97BD3004BF9A7 /* CashWaveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE3124DD2BD97BD3004BF9A7 /* CashWaveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE3124EE2BD97BD3004BF9A7 /* Build configuration list for PBXNativeTarget "CashWaveUITests" */;
+			buildPhases = (
+				BE3124DA2BD97BD3004BF9A7 /* Sources */,
+				BE3124DB2BD97BD3004BF9A7 /* Frameworks */,
+				BE3124DC2BD97BD3004BF9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3124E02BD97BD3004BF9A7 /* PBXTargetDependency */,
+			);
+			name = CashWaveUITests;
+			productName = CashWaveUITests;
+			productReference = BE3124DE2BD97BD3004BF9A7 /* CashWaveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE3124BC2BD97BD1004BF9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BE3124C32BD97BD1004BF9A7 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BE3124D32BD97BD3004BF9A7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BE3124C32BD97BD1004BF9A7;
+					};
+					BE3124DD2BD97BD3004BF9A7 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BE3124C32BD97BD1004BF9A7;
+					};
+				};
+			};
+			buildConfigurationList = BE3124BF2BD97BD1004BF9A7 /* Build configuration list for PBXProject "CashWave" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE3124BB2BD97BD1004BF9A7;
+			productRefGroup = BE3124C52BD97BD1004BF9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3124C32BD97BD1004BF9A7 /* CashWave */,
+				BE3124D32BD97BD3004BF9A7 /* CashWaveTests */,
+				BE3124DD2BD97BD3004BF9A7 /* CashWaveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE3124C22BD97BD1004BF9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3124CF2BD97BD3004BF9A7 /* Preview Assets.xcassets in Resources */,
+				BE3124CC2BD97BD3004BF9A7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3124D22BD97BD3004BF9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3124DC2BD97BD3004BF9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE3124C02BD97BD1004BF9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3124CA2BD97BD1004BF9A7 /* ContentView.swift in Sources */,
+				BE3124C82BD97BD1004BF9A7 /* CashWaveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3124D02BD97BD3004BF9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3124D92BD97BD3004BF9A7 /* CashWaveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE3124DA2BD97BD3004BF9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3124E52BD97BD3004BF9A7 /* CashWaveUITestsLaunchTests.swift in Sources */,
+				BE3124E32BD97BD3004BF9A7 /* CashWaveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE3124D62BD97BD3004BF9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3124C32BD97BD1004BF9A7 /* CashWave */;
+			targetProxy = BE3124D52BD97BD3004BF9A7 /* PBXContainerItemProxy */;
+		};
+		BE3124E02BD97BD3004BF9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE3124C32BD97BD1004BF9A7 /* CashWave */;
+			targetProxy = BE3124DF2BD97BD3004BF9A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE3124E62BD97BD3004BF9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE3124E72BD97BD3004BF9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE3124E92BD97BD3004BF9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashWave/Preview Content\"";
+				DEVELOPMENT_TEAM = 646Z2YZLA9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = callmeartan.CashWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE3124EA2BD97BD3004BF9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashWave/Preview Content\"";
+				DEVELOPMENT_TEAM = 646Z2YZLA9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = callmeartan.CashWave;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE3124EC2BD97BD3004BF9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 646Z2YZLA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = callmeartan.CashWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashWave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashWave";
+			};
+			name = Debug;
+		};
+		BE3124ED2BD97BD3004BF9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 646Z2YZLA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = callmeartan.CashWaveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashWave.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashWave";
+			};
+			name = Release;
+		};
+		BE3124EF2BD97BD3004BF9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 646Z2YZLA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = callmeartan.CashWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashWave;
+			};
+			name = Debug;
+		};
+		BE3124F02BD97BD3004BF9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 646Z2YZLA9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = callmeartan.CashWaveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashWave;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE3124BF2BD97BD1004BF9A7 /* Build configuration list for PBXProject "CashWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3124E62BD97BD3004BF9A7 /* Debug */,
+				BE3124E72BD97BD3004BF9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3124E82BD97BD3004BF9A7 /* Build configuration list for PBXNativeTarget "CashWave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3124E92BD97BD3004BF9A7 /* Debug */,
+				BE3124EA2BD97BD3004BF9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3124EB2BD97BD3004BF9A7 /* Build configuration list for PBXNativeTarget "CashWaveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3124EC2BD97BD3004BF9A7 /* Debug */,
+				BE3124ED2BD97BD3004BF9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE3124EE2BD97BD3004BF9A7 /* Build configuration list for PBXNativeTarget "CashWaveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3124EF2BD97BD3004BF9A7 /* Debug */,
+				BE3124F02BD97BD3004BF9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE3124BC2BD97BD1004BF9A7 /* Project object */;
+}
